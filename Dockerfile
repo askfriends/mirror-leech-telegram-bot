@@ -1,4 +1,4 @@
-FROM ghcr.io/viswanathbalusu/megarestbase AS builder
+FROM ghcr.io/viswanathbalusu/megarestbase:latest AS builder
 
 WORKDIR /usr/src/app
 RUN chmod 777 /usr/src/app
